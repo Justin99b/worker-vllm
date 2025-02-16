@@ -2,6 +2,7 @@ import os
 import runpod
 from utils import JobInput
 from engine import vLLMEngine, OpenAIvLLMEngine
+import commandr_tool_parser
 
 vllm_engine = vLLMEngine()
 OpenAIvLLMEngine = OpenAIvLLMEngine(vllm_engine)
